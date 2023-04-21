@@ -1,17 +1,18 @@
-#include <stdio.h>
+#include  <stdio.h>
 /**
- * main - print all single digit numbers of base 10 starting from 0, followed by a new line, but this time use putchar at least twice
+ * main - print all single digit numbers of base 10 starting from 0,
+ * use putchar at least twice
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-int num;
+    int num;
 
-for (num = '0'; num <= '9'; num++)
-{
-putchar(num);
-}
-putchar('\n');
-return (0);
+    for (num = '0'; num <= '9'; num++)
+    {
+        putchar(num);
+    }
+    putchar('\n');
+    return (0);
 }
