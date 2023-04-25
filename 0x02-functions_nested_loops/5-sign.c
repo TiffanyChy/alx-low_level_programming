@@ -2,8 +2,8 @@
 
 /**
  * print_sign - check input if its positive, negative or zero
- * @n: variable to determine if input is greater than, less than or is zero
- * Return: 1 & print + if n is > 0,0 and print 0 if n = 0,-1 and print - if n is < 0
+ * @n: variable to determine if input is >,< or = 0
+ * Return: 1 & print + if n is > 0,0 and print 0 if n = 0,-1 otherwise
  */
 
 int print_sign(int n)
