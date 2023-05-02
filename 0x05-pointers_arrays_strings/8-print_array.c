@@ -8,15 +8,13 @@
  */
 void print_array(int *a, int n)
 {
-int countt = 0;
+int c = 0;
 
-while (countt < n)
+for (; c < n; c++)
 {
-if (countt != (n - 1))
-printf("%i, ", a[countt]);
-else
-printf("%i, ", a[countt]);
-countt++;
+printf("%d", *(a + c));
+if (c != (n - 1))
+printf(", ");
 }
 printf("\n");
 }
